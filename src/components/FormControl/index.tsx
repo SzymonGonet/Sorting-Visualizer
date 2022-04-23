@@ -4,9 +4,8 @@ import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import styles from "./FormControl.module.scss";
-import { makeStyles, MenuItem } from '@mui/material';
-import { algorithms } from '../../../../global';
-import { style } from '@mui/system';
+import { MenuItem } from '@mui/material';
+import { algorithms } from '../../global';
 
 
 function SelectAlgorithm() {

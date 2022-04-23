@@ -1,0 +1,54 @@
+.menu {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+Button {
+  height: 56px;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  padding: 0 15px;
+  border: 1px solid rgba(25, 117, 210, 0.5);
+  border-radius: 4px;
+
+  .name {
+    color: rgb(25, 118, 210);
+  }
+
+  .slider {
+    display: flex;
+    width: 200px;
+    margin: 0 25px;
+  }
+}
+
+.test {
+  position: relative;
+  min-height: 800px;
+
+  .arrayContainer {
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 40px);
+
+    .arrayBlock {
+      display: inline-block;
+      margin: 0 2px;
+      width: 100%;
+      max-width: 100px;
+      min-width: 1px;
+      background-color: rgb(169, 99, 187);
+    }
+  }
+}
